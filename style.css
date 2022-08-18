@@ -7,17 +7,204 @@ html {
     box-sizing: inherit;
   }
   
-  body, h1, h2, h3, h4, h5, h6, ol, ul {
+  body, h3, h4, h5, h6, ol, ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
     background-color: #FFFFFF;
   }
   
+  h1 {
+    font-family: 'Rosario';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+    margin: 0;
+  }
+  
+  h2 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #555555;
+    width: 637px;
+    margin: 0;
+  }
+
   ol, ul {
     list-style: none;
   }
 
 body {
     font-family: 'DM Sans', 'Rosario' sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.menu-link {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.menu-logo {
+  margin-left: 218px;
+  margin-right: 308px;
+}
+
+.menu-btn {
+  margin-right: 30px;
+}
+
+.menu-button {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #09A66D;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 10px 23px;
+}
+
+.header-container {
+  background: url(images/header-fon.png) no-repeat;
+  background-position: top left;
+}
+
+.header-btn {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #09A66D;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 23px;
+  margin-left: 632px;
+}
+
+.header-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.header-img {
+  margin-right: 107px;
+}
+
+.header-advantages-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.header-advantages-icon {
+margin-right: 24px;
+}
+
+.header-advantages-title {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+.header-advantages-desc {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+.container-1 {
+  background: url(images/container-1-fon.png) no-repeat;
+  background-position: top right;
+  padding-top: 140px;
+  margin-bottom: 146px;
+  padding-left: 100px;
+}
+
+.container-1-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.container-1-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.container-1-block-img {
+  margin-right: 44px;
+}
+
+.container-1-block-text {
+
+}
+
+.container-1-title {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222;
+  margin-bottom: 0;
+}
+
+.container-1-desc {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  width: 277px;
+  margin-top: 0;
+}
+
+.container-1-block-img-bottom {
+  margin-left: 160px;
+}
+
+.container-1-images {
+  background: url(images/container-1-img1-fon.png) no-repeat;
+  background-position: center;
+  margin-left: 150px;
+}
+
+.container-1-img1 {
+  margin-left: 130px;
+  margin-bottom: 160px;
+}
+
+.container-1-img2 {
+  margin-left: -260px;
 }
