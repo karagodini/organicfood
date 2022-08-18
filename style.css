@@ -208,3 +208,112 @@ margin-right: 24px;
 .container-1-img2 {
   margin-left: -260px;
 }
+
+.special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-img {
+  margin-right: 50px;
+}
+
+.special-content {
+  background: url(images/special-fon.png) no-repeat;
+  background-position: bottom right;
+  width: 660px;
+  height: 670px;
+  margin-bottom: -200px;
+}
+
+.special-btn {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #09A66D;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 23px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+.about-content {
+  width: 640px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.about-desc {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+
+.about-images {
+  width: 500px;
+}
+
+.about-img3 {
+  margin-top: -110px;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.download-phones {
+  background: url(images/phone-fon.png) no-repeat;
+  margin-right: 112px;
+}
+
+.download-phone {
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.download-content {
+  width: 662px;
+}
+
+.download-text {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333333;
+  background: #F3FBF8;
+  border-radius: 50px;
+  padding: 11px 24px;
+  width: 170px;
+}
+
+.download-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 232px;
+}
+
+.download-img1 {
+
+}
+
+.download-img2 {
+  margin-left: 24px;
+}
