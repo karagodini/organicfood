@@ -317,3 +317,61 @@ margin-right: 24px;
 .download-img2 {
   margin-left: 24px;
 }
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.footer-block1 {
+  width: 345px;
+  height: 160px;
+}
+
+.footer-block2 {
+  width: 120px;
+  margin-left: 157px;
+}
+
+.footer-title {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+}
+
+.footer-link {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #222222;
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.footer-block3 {
+  width: 120px;
+  margin-left: 142px;
+}
+
+.footer-block4 {
+  width: 300px;
+  margin-left: 142px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 220px;
+}
+
+.footer-icon {
+  margin-right: 50px;
+}
